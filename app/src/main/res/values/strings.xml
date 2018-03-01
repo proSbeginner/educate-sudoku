@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Sudoku</string>
+    <string name="about_sudoku">About Sudoku</string>
+
+    <string name="main_title">Sudoku Game</string>
+    <string name="continue_label">Continue</string>
+    <string name="new_game_label">New Game</string>
+    <string name="about_label">About</string>
+    <string name="exit_label">Exit</string>
+
+    <string name="about_text">\<b>Sudoku Game</b> the Player will enter number 1 to 9 in to rows and columns as well as 3x3 small tables</string>
+
+    <string name="settings_label">Settings</string>
+    <string name="settings_title">Sudoku Settings</string>
+    <string name="music_title">Music</string>
+    <string name="music_summary">Music Summary</string>
+    <string name="hints_title">Hints</string>
+    <string name="hints_summary">Hints Summary</string>
+
+    <string name="new_game_title">Select your choice</string>
+    <string name="easy_label">Easy</string>
+    <string name="medium_label">Medium</string>
+    <string name="hard_label">Hard</string>
+</resources>
