@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">Sudoku</string>
-    <string name="about_sudoku">เกี่ยวกับเกมซูโดกู</string>
 
     <string name="main_title">เกมซูโดกู</string>
     <string name="continue_label">เล่นตอจากเดิม</string>
@@ -8,6 +7,7 @@
     <string name="about_label">เกี่ยวกับเกมซูโดกู</string>
     <string name="exit_label">ออกจากเกม</string>
 
+    <string name="about_sudoku">เกี่ยวกับเกมซูโดกู</string>
     <string name="about_text">\<b>เกมซูโดกู</b> เป็นเกมที่ผู้เล่นจะต้องเติมหมายเลข 1 ถึง 9 ลงในช่องต่างๆ เพื่อทำให้แต่ละแถว (ในแนวนอน) และแต่ละคอลัมน์ (ในแนวตั้ง) รวมถึงตารางย่อยขนาด 3x3 มีตัวเลข 1 ถึง 9 ครบทุกตัวเลข</string>
 
     <string name="settings_label">ตั้งค่า</string>
@@ -21,4 +21,11 @@
     <string name="easy_label">ง่าย</string>
     <string name="medium_label">ปานกลาง</string>
     <string name="hard_label">ยาก</string>
+
+    <!-- PuzzleActivity -->
+    <string name="game_title">Game</string>
+    <string name="no_moves_label">ไม่สามารถเติมตัวเลขใดๆที่ตำแหน่งนี้ได้</string>
+    <string name="keypad_title">Keypad</string>
+
+    <string name="keypad_clear">ลบตัวเลข</string>
 </resources>

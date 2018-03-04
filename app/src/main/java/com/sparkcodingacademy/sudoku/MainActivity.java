@@ -13,7 +13,7 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
-    private static final String TAG = "Sudoku";
+    private static final String TAG = "phai";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,8 +46,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(intent);
                 break;
             case R.id.btn_new_game:
-                Log.d(TAG, "new game case");
                 openNewGameDialog();
+                break;
+            case R.id.btn_exit:
+                finish();
                 break;
         }
     }
@@ -83,6 +85,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     private void startGame(int chooseIndex) {
-        Log.d(TAG, "Your choose " + chooseIndex);
+        MyLog.log(TAG, "Your choose difficulty " + chooseIndex);
+
+        Intent intent = new Intent(this, PuzzleActivity.class);
+        intent.putExtra(PuzzleActivity.KEY_DIFFICULTY, chooseIndex);
+        startActivity(intent);
     }
 }
